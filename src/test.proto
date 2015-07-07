@@ -1,0 +1,11 @@
+message Bar {
+  required string wine = 1;
+  optional bool good = 2;
+};
+
+message Foo {
+  required Bar bar = 1;
+  optional bool quux = 2;
+  optional int32 baz = 3;
+  repeated string booz = 4;
+};
